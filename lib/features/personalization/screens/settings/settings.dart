@@ -124,6 +124,7 @@ class SettingsScreen extends StatelessWidget {
 
                 TSettingsMenuTile(icon: Iconsax.document_upload, title: 'All Orders', subTitle: 'View all placed orders',
                   trailing: Icon(Iconsax.add_circle), onTap: () => Get.to(() => const AllOrders()),
+                  
                   ),
 
 
