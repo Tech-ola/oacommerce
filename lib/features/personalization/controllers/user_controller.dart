@@ -32,7 +32,7 @@ class UserController extends GetxController {
     super.onInit();
     fetchUserRecord();
   }
-
+ 
   // Fetch user record 
   Future<void> fetchUserRecord() async {
 
